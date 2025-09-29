@@ -1,0 +1,70 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dpu</title>
+        <style>
+            body {
+                font-family: monospace;
+                font-size: 18px;
+                color: #111;
+                background-color: white;
+                max-width: 1280px;
+                margin: 0 auto;
+                padding: 0 50px;
+                box-sizing: border-box;
+            }
+
+            .dpu-logo-main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                min-height: 100dvh;
+                text-align: center;
+            }
+
+            .text-container {
+                margin-top: 1em;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #111;
+                    color: #eee;
+                }
+
+                .dpu-logo-main svg rect {
+                    fill: #eee;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="dpu-logo-main">
+            <div class="svg-container">
+                <svg width="170" height="90" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="30" width="10" height="30" fill="black" />
+                    <rect x="10" y="20" width="30" height="10" fill="black" />
+                    <rect x="10" y="60" width="30" height="10" fill="black" />
+                    <rect x="40" width="10" height="60" fill="black" />
+                    <rect x="60" y="20" width="10" height="70" fill="black" />
+                    <rect x="70" y="20" width="30" height="10" fill="black" />
+                    <rect x="70" y="60" width="30" height="10" fill="black" />
+                    <rect x="100" y="30" width="10" height="30" fill="black" />
+                    <rect x="120" y="20" width="10" height="40" fill="black" />
+                    <rect x="130" y="60" width="30" height="10" fill="black" />
+                    <rect x="160" y="20" width="10" height="40" fill="black" />
+                </svg>
+            </div>
+            <div class="text-container">
+                Making "THE BOX"
+            </div>
+        </div>
+
+    </body>
+
+</html>
